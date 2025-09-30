@@ -1,0 +1,106 @@
+Entrega de la actividad práctica: App To-Do con SQLite
+
+Enlace al repositorio GitHub: [COLOCA AQUÍ TU ENLACE]
+
+Esta entrega incluye:
+- Código fuente completo de la app.
+- Base de datos SQLite (tareas.db) o script SQL.
+- Capturas de pantalla de las tareas registradas y su manipulación (editar/eliminar).
+
+DESCRIPCIÓN DEL PROYECTO:
+========================
+
+📱 Aplicación To-Do desarrollada con Kivy 2.3.1 y SQLite3
+🗄️ Base de datos: SQLite3 con tabla 'tareas'
+🎯 Funcionalidades CRUD completas: Crear, Leer, Actualizar, Eliminar
+
+ARCHIVOS INCLUIDOS:
+==================
+
+1. main.py - Archivo principal que ejecuta la aplicación
+2. app.py - Interfaz de usuario desarrollada con Kivy
+3. gestor.py - Módulo para manejo de base de datos SQLite
+4. requirements.txt - Dependencias del proyecto
+5. tareas.db - Base de datos SQLite (se genera automáticamente)
+6. README.md - Documentación del proyecto
+
+FUNCIONALIDADES IMPLEMENTADAS:
+=============================
+
+✅ CREAR (Create):
+   - Agregar nuevas tareas con título y descripción
+   - Validación de campos obligatorios
+   - Fecha de creación automática
+
+✅ LEER (Read):
+   - Listar todas las tareas
+   - Mostrar estadísticas (total, completadas, pendientes)
+   - Interfaz visual con checkboxes y botones
+
+✅ ACTUALIZAR (Update):
+   - Editar título y descripción de tareas existentes
+   - Marcar/desmarcar tareas como completadas
+   - Fecha de actualización automática
+
+✅ ELIMINAR (Delete):
+   - Eliminar tareas con confirmación
+   - Validación de existencia de tareas
+
+CARACTERÍSTICAS ADICIONALES:
+===========================
+
+🎨 Interfaz de usuario moderna y intuitiva
+📊 Estadísticas en tiempo real
+🔍 Validación de datos
+⚠️ Mensajes de confirmación y error
+📱 Diseño responsive
+🗃️ Persistencia de datos con SQLite3
+⏰ Timestamps automáticos
+
+ESTRUCTURA DE LA BASE DE DATOS:
+==============================
+
+Tabla: tareas
+- id (INTEGER PRIMARY KEY AUTOINCREMENT)
+- titulo (TEXT NOT NULL)
+- descripcion (TEXT)
+- completada (INTEGER DEFAULT 0)
+- fecha_creacion (TEXT NOT NULL)
+- fecha_actualizacion (TEXT)
+
+INSTRUCCIONES DE INSTALACIÓN:
+============================
+
+1. Activar entorno virtual:
+   venv\Scripts\activate
+
+2. Instalar dependencias:
+   pip install -r requirements.txt
+
+3. Ejecutar aplicación:
+   python main.py
+
+REQUISITOS CUMPLIDOS:
+====================
+
+✅ Código fuente completo y funcional
+✅ Operaciones CRUD implementadas
+✅ Base de datos SQLite3
+✅ Interfaz gráfica con Kivy
+✅ Validación de datos
+✅ Manejo de errores
+✅ Documentación completa
+✅ Estructura modular del código
+
+NOTAS TÉCNICAS:
+==============
+
+- Python 3.13.7
+- Kivy 2.3.1 con dependencias completas
+- SQLite3 para persistencia de datos
+- Interfaz responsive y moderna
+- Código documentado y comentado
+- Manejo de excepciones implementado
+
+¡Aplicación lista para usar y evaluar!
+

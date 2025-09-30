@@ -1,0 +1,13 @@
+# Dependencias del proyecto Kivy
+kivy[full]==2.3.1
+
+# Dependencias adicionales instaladas automáticamente con kivy[full]:
+# - kivy-deps.angle==0.4.0 (OpenGL backend alternativo)
+# - kivy-deps.glew==0.3.1 (OpenGL backend)
+# - kivy-deps.gstreamer==0.3.4 (soporte multimedia)
+# - kivy-deps.sdl2==0.8.0 (ventana/imágenes/audio)
+# - pillow==10.4.0 (procesamiento de imágenes)
+# - pywin32==311 (soporte Windows)
+# - requests==2.32.5 (solicitudes HTTP)
+# - docutils==0.22.2 (documentación)
+# - pygments==2.19.2 (resaltado de sintaxis)
